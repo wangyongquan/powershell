@@ -2874,13 +2874,13 @@ $SMTPInfo = New-Object Net.Mail.SmtpClient($SmtpServer, 587)
 
 $SMTPInfo.EnableSsl = $true
 
-$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('你的邮箱地址', '你的smtp秘钥');
+$SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('3319968036@qq.com', 'kmemofbdsidfciga');
 
 $ReportEmail = New-Object System.Net.Mail.MailMessage
 
-$ReportEmail.From = '你的邮箱地址'
+$ReportEmail.From = '3319968036@qq.com'
 
-$ReportEmail.To.Add('你的邮箱地址')
+$ReportEmail.To.Add('3319968036@qq.com')
 
 $ReportEmail.Subject = 'Report'
 
